@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+     background-image:linear-gradient(to right, rgb(117, 5, 117), rgb(107, 4, 107)) ;
+}
+
+p {  box-shadow: 3px 5px 10px 0 ;
+color:rgb(0, 0, 0)}
+header { background-image:linear-gradient(to right, purple, rgb(250, 0, 250)) ;
+box-shadow: 3px 5px 10px 0 black;
+padding-bottom: 30px;}
+h1 { text-align: center;
+font-size: 70px;}
+.navigation {display: flex;
+justify-content:space-around;
+font-size: 20px;
+color: rgb(231, 229, 229)
+}
+main {box-shadow: 3px 5px 10px 0 black}
+.navigationbutton { color: black; }
+.about {font-size:50px; 
+text-align: center;}
+.aboutP {font-size: 30px;}
+.pizzaface {width: 300px;}
+.pillarjohn {width: 512px;}
+.bosses {font-size: 50px;
+ text-align: center;}
+ .bossesP {font-size: 30px}
+.bossesIMG {width: 400px;}
+.bossesDIV {text-align: center;}
+.ranks {text-align: center; 
+font-size: 50px;}
+.ranksDIV {font-size: 30px;}
+.ranksIMG {text-align: center;}
+.fav {font-size: 50px;
+text-align: center;}
+.favDIV {font-size: 30px;}
+.download {
+    text-decoration: none;
+    font-size: 20px;
+    color: navy;
+     box-shadow: 3px 5px 10px 0 black;
+    padding: 10px;
+    border-radius: 10px;
+    background-image:linear-gradient(to right, purple, rgb(250, 0, 250)) ;
+    position:fixed;
+    top: 540px;
+    left: 30px;
+    transform: scale(1);
+transition: 0.4s ease-in-out;
+
+    
+}
+.download:hover { transform: scale(1.2);
+transition: 0.4s ease-in-out;}
+footer {text-align: center;
+background-color: grey;}
+.ranksP {font-size: 30px;}
+
+
+
